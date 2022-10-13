@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>button_ready_for_coordinator</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>new decideUtils().isVisibleReadyForCoordinator(current);</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint>Clicking on this button the author communicate the dossier is ready for the coordinator to review / amend</hint>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Ready for coordinator</name>
+        <onclick>readyForCoordinator()</onclick>
+        <order>-300</order>
+        <script><![CDATA[function readyForCoordinator() {
+    var isAuthor = g_user.hasRole('x_378151_decide.author');
+    var isCoordinator = g_user.hasRole('x_378151_decide.coordinator');
+    var isDirector = g_user.hasRole('x_378151_decide.director');
+    var status = g_form.getValue("status");
+    var inPreparation = (status == "in_preparation");
+    var pendingCoordinator = (status == "pending_coordinator");
+    var pendingGeneralDirector = (status == "pending_general_director");
+    var electronicVisa = (g_form.getValue("type_of_signature_visa") == "electronic_via_decide");
+
+    if (inPreparation && isAuthor) {
+        g_form.setValue("status", "pending_coordinator");
+    } else if (inPreparation && isCoordinator) {
+        g_form.setValue("status", "pending_cabinet");
+    } else if (pendingCoordinator && isCoordinator && electronicVisa) {
+        g_form.setValue("status", "pending_general_director");
+    } else if (pendingCoordinator && isCoordinator && !electronicVisa) {
+        g_form.setValue("status", "pending_cabinet");
+    } else if (pendingGeneralDirector && isDirector) {
+        g_form.setValue("status", "pending_cabinet");
+    }
+    //gsftSubmit(null, g_form.getFormElement(), "40d1722b475291107443f2e7536d43c1");
+	gsftSubmit(null, g_form.getFormElement(), 'button_ready_for_coordinator'); //MUST call the 'Action name' set in this UI Action
+}
+
+
+//Code that runs without 'onclick'
+//Ensure call to server-side function with no browser errors
+if(typeof window == 'undefined')
+   serverReopen();
+
+function serverReopen(){
+   current.update();
+   gs.addInfoMessage('A notification will be sent to the coordinator ');
+   action.setRedirectURL(current);
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-09 17:15:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>61a772ff4792d1107443f2e7536d43b8</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Ready for coordinator</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+        <sys_update_name>sys_ui_action_61a772ff4792d1107443f2e7536d43b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-10 12:07:42</sys_updated_on>
+        <table>x_378151_decide_dossier</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

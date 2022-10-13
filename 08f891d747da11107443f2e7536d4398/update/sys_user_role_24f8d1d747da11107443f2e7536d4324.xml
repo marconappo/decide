@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Default admin role</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_378151_decide.admin</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-07 21:04:21</sys_created_on>
+        <sys_id>24f8d1d747da11107443f2e7536d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_378151_decide.admin</sys_name>
+        <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+        <sys_update_name>sys_user_role_24f8d1d747da11107443f2e7536d4324</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-10-07 21:04:21</sys_updated_on>
+    </sys_user_role>
+</record_update>

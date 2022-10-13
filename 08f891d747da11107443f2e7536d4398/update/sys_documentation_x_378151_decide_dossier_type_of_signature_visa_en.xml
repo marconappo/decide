@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="type_of_signature_visa" label="Type of signature/visa" language="en" table="x_378151_decide_dossier">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>type_of_signature_visa</element>
+            <help/>
+            <hint/>
+            <label>Type of signature/visa</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 11:12:26</sys_created_on>
+            <sys_id>1da425b3475e91107443f2e7536d4348</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Type of signature/visa</sys_name>
+            <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+            <sys_update_name>sys_documentation_x_378151_decide_dossier_type_of_signature_visa_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 11:12:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

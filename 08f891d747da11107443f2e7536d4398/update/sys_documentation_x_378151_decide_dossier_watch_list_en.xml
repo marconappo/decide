@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="watch_list" label="Watch list" language="en" table="x_378151_decide_dossier">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>watch_list</element>
+            <help/>
+            <hint/>
+            <label>Watch list</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <plural>Watch lists</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-08 22:44:15</sys_created_on>
+            <sys_id>6d693e23479291107443f2e7536d43fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Watch list</sys_name>
+            <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+            <sys_update_name>sys_documentation_x_378151_decide_dossier_watch_list_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-08 22:44:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

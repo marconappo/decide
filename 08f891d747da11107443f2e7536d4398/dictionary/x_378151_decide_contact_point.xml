@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Contact point" max_length="40" name="x_378151_decide_contact_point" sizeclass="16" type="collection">
+        <element label="Contact" max_length="32" name="contact" reference="sys_user" type="reference"/>
+        <element label="Dossier" max_length="32" name="dossier" reference="x_378151_decide_dossier" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Role" max_length="40" name="role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Main author dossier" sequence="0" value="main_author_dossier"/>
+                <element inactive_on_update="false" label="Main author document" sequence="1" value="main_author_document"/>
+                <element inactive_on_update="false" label="Main legislative coordinator" sequence="2" value="main_legislative_coordinator"/>
+                <element inactive_on_update="false" label="Cabinet" sequence="3" value="cabinet"/>
+                <element inactive_on_update="false" label="Author document" sequence="4" value="author_document"/>
+                <element inactive_on_update="false" label="Author dossier" sequence="5" value="author_dossier"/>
+                <element inactive_on_update="false" label="DGT contact" sequence="6" value="dgt_contact"/>
+                <element inactive_on_update="false" label="Hierarchy" sequence="7" value="hierarchy"/>
+                <element inactive_on_update="false" label="ISC contact" sequence="8" value="isc_contact"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="contact"/>
+        </index>
+        <index name="index2">
+            <element name="dossier"/>
+        </index>
+    </element>
+</database>

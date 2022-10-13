@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Decide Decision">26a860eb471a51107443f2e7536d43e4</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_378151_decide_dossier">assigned_dgsLIKEDIGIT^status=pending_general_director^EQ<item endquery="false" field="assigned_dgs" goto="false" newquery="false" operator="LIKE" or="false" value="DIGIT"/>
+            <item display_value="Pending General Director" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="pending_general_director"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>MY DG Dossier</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_378151_decide_dossier</name>
+        <order>15</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_378151_decide.director</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-09 16:26:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eb6c2af34792d1107443f2e7536d4370</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>MY DG Dossiers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+        <sys_update_name>sys_app_module_eb6c2af34792d1107443f2e7536d4370</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-09 18:54:48</sys_updated_on>
+        <timeline_page/>
+        <title>MY DG Dossiers</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

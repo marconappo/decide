@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-09 12:21:49</sys_created_on>
+        <sys_id>0d447933479e91107443f2e7536d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request cabinet agreement.x_378151_decide.author</sys_name>
+        <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+        <sys_ui_action display_value="Request agreement">3fef5267471291107443f2e7536d4312</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_0d447933479e91107443f2e7536d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-09 12:21:49</sys_updated_on>
+        <sys_user_role display_value="x_378151_decide.author" name="x_378151_decide.author">e8f8d1d747da11107443f2e7536d4321</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Dossier" section_id="a498782f475a51107443f2e7536d4397" sys_domain="global" table="x_378151_decide_dossier" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>b52fa6b74792d1107443f2e7536d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">a304f8a7475a51107443f2e7536d43b5</sys_ui_formatter>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>bd2fa6b74792d1107443f2e7536d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>b12fa6b74792d1107443f2e7536d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>duration_of_the_procedure</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>b52fa6b74792d1107443f2e7536d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consultation_details</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>b92fa6b74792d1107443f2e7536d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>politically_sensitive_important</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>bd2fa6b74792d1107443f2e7536d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>b12fa6b74792d1107443f2e7536d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>procedure_type</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>b52fa6b74792d1107443f2e7536d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>b92fa6b74792d1107443f2e7536d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>justification_for_the_adoption</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>bd2fa6b74792d1107443f2e7536d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_adoption_date</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>b12fa6b74792d1107443f2e7536d437d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>b52fa6b74792d1107443f2e7536d437d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_title</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>b92fa6b74792d1107443f2e7536d437d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>full_title</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>bd2fa6b74792d1107443f2e7536d437d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>main_author_dossier</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>b12fa6b74792d1107443f2e7536d437e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>main_author_document</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>b52fa6b74792d1107443f2e7536d437e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>main_legislative_coordinator</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>b92fa6b74792d1107443f2e7536d437e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confidentiality_level</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_id>bd2fa6b74792d1107443f2e7536d437e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:37:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Dossier</caption>
+            <header>false</header>
+            <name>x_378151_decide_dossier</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-08 13:21:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a498782f475a51107443f2e7536d4397</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_378151_decide_dossier</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+            <sys_update_name>sys_ui_section_a498782f475a51107443f2e7536d4397</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-08 13:25:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

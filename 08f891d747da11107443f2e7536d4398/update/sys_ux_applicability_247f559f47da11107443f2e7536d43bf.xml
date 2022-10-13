@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_378151_decide.Audience for appDecide</api_name>
+        <description/>
+        <name>Audience for appDecide</name>
+        <roles>24f8d1d747da11107443f2e7536d4324,e8f8d1d747da11107443f2e7536d4321,90f8d1d747da11107443f2e7536d431f,5cf8d1d747da11107443f2e7536d431b,6cf8d1d747da11107443f2e7536d4326</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-07 21:32:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>247f559f47da11107443f2e7536d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for appDecide</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+        <sys_update_name>sys_ux_applicability_247f559f47da11107443f2e7536d43bf</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-10-07 21:32:45</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

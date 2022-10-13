@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Director General VISA" section_id="18c6a27f4752d1107443f2e7536d43f4" sys_domain="global" table="x_378151_decide_dossier" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_signature_visa</element>
+            <position>0</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-09 16:01:17</sys_created_on>
+            <sys_id>a4c6e27f4752d1107443f2e7536d4355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Director General VISA" display_value="Director General VISA" name="x_378151_decide_dossier" sys_domain="global" view="Default view">18c6a27f4752d1107443f2e7536d43f4</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:01:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Director General VISA</caption>
+            <header>false</header>
+            <name>x_378151_decide_dossier</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-09 16:01:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18c6a27f4752d1107443f2e7536d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_378151_decide_dossier</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+            <sys_update_name>sys_ui_section_18c6a27f4752d1107443f2e7536d43f4</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:01:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

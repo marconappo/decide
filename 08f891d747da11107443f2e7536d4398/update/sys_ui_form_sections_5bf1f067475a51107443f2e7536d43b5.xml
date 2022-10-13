@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="5bf1f067475a51107443f2e7536d43b5" sys_domain="global" table="x_378151_decide_dossier" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-08 13:21:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2098b82f475a51107443f2e7536d4326</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_378151_decide_dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">5bf1f067475a51107443f2e7536d43b5</sys_ui_form>
+            <sys_ui_section caption="Dossier" display_value="Dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a498782f475a51107443f2e7536d4397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-08 13:21:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-09 16:01:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50c6a27f4752d1107443f2e7536d43f8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_378151_decide_dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">5bf1f067475a51107443f2e7536d43b5</sys_ui_form>
+            <sys_ui_section caption="Director General VISA" display_value="Director General VISA" name="x_378151_decide_dossier" sys_domain="global" view="Default view">18c6a27f4752d1107443f2e7536d43f4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:38:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-09 16:01:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cc6a27f4752d1107443f2e7536d43fb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_378151_decide_dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">5bf1f067475a51107443f2e7536d43b5</sys_ui_form>
+            <sys_ui_section caption="Finality" display_value="Finality" name="x_378151_decide_dossier" sys_domain="global" view="Default view">94c6a27f4752d1107443f2e7536d43f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:38:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:37:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f12fa6b74792d1107443f2e7536d4369</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_378151_decide_dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">5bf1f067475a51107443f2e7536d43b5</sys_ui_form>
+            <sys_ui_section caption="Info SG Greffe" display_value="Info SG Greffe" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a92f66b74792d1107443f2e7536d43b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:38:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-08 22:44:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5693e23479291107443f2e7536d43da</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_378151_decide_dossier" name="x_378151_decide_dossier" sys_domain="global" view="Default view">5bf1f067475a51107443f2e7536d43b5</sys_ui_form>
+            <sys_ui_section caption="Notes &amp; History" display_value="Notes &amp; History" name="x_378151_decide_dossier" sys_domain="global" view="Default view">a5693e23479291107443f2e7536d4367</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:38:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_378151_decide_dossier</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-08 12:52:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bf1f067475a51107443f2e7536d43b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_378151_decide_dossier</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+            <sys_update_name>sys_ui_form_sections_5bf1f067475a51107443f2e7536d43b5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-08 12:52:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

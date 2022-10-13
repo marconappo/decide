@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Finality" section_id="94c6a27f4752d1107443f2e7536d43f5" sys_domain="global" table="x_378151_decide_dossier" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:39:12</sys_created_on>
+            <sys_id>887f2eb74792d1107443f2e7536d4327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:39:12</sys_updated_on>
+            <text>Trasmission to the institutions (please select the reason for sending to the national parliaments</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:39:12</sys_created_on>
+            <sys_id>4c7f2eb74792d1107443f2e7536d4327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:39:12</sys_updated_on>
+            <text>Addresses defined in the legal basis or by the nature of the act (5)</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interest_for_the_european_economic_area_eea</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:39:12</sys_created_on>
+            <sys_id>0c7f2eb74792d1107443f2e7536d432c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finality" display_value="Finality" name="x_378151_decide_dossier" sys_domain="global" view="Default view">94c6a27f4752d1107443f2e7536d43f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interest_for_uk_in_respect_of_northen_ireland</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:39:12</sys_created_on>
+            <sys_id>007f2eb74792d1107443f2e7536d432d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finality" display_value="Finality" name="x_378151_decide_dossier" sys_domain="global" view="Default view">94c6a27f4752d1107443f2e7536d43f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:39:12</sys_created_on>
+            <sys_id>047f2eb74792d1107443f2e7536d432d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finality" display_value="Finality" name="x_378151_decide_dossier" sys_domain="global" view="Default view">94c6a27f4752d1107443f2e7536d43f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:39:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>direct_interest_for_the_functioning_of_the_eu_customs</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:39:12</sys_created_on>
+            <sys_id>087f2eb74792d1107443f2e7536d432d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finality" display_value="Finality" name="x_378151_decide_dossier" sys_domain="global" view="Default view">94c6a27f4752d1107443f2e7536d43f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:39:12</sys_created_on>
+            <sys_id>0c7f2eb74792d1107443f2e7536d432d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finality" display_value="Finality" name="x_378151_decide_dossier" sys_domain="global" view="Default view">94c6a27f4752d1107443f2e7536d43f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:39:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>887f2eb74792d1107443f2e7536d4327</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:39:12</sys_created_on>
+            <sys_id>007f2eb74792d1107443f2e7536d432e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finality" display_value="Finality" name="x_378151_decide_dossier" sys_domain="global" view="Default view">94c6a27f4752d1107443f2e7536d43f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:39:12</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_trasmission_date</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:39:12</sys_created_on>
+            <sys_id>047f2eb74792d1107443f2e7536d432e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finality" display_value="Finality" name="x_378151_decide_dossier" sys_domain="global" view="Default view">94c6a27f4752d1107443f2e7536d43f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:39:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>4c7f2eb74792d1107443f2e7536d4327</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 16:39:12</sys_created_on>
+            <sys_id>087f2eb74792d1107443f2e7536d432e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finality" display_value="Finality" name="x_378151_decide_dossier" sys_domain="global" view="Default view">94c6a27f4752d1107443f2e7536d43f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:39:12</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Finality</caption>
+            <header>false</header>
+            <name>x_378151_decide_dossier</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-09 16:01:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94c6a27f4752d1107443f2e7536d43f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_378151_decide_dossier</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+            <sys_update_name>sys_ui_section_94c6a27f4752d1107443f2e7536d43f5</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-09 16:01:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

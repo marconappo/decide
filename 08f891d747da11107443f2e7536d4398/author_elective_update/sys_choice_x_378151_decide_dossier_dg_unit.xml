@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="dg_unit" table="x_378151_decide_dossier" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>dg_unit</element>
+            <name>x_378151_decide_dossier</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:15:25</sys_created_on>
+            <sys_id>fe7b519b47da11107443f2e7536d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>dg_unit</sys_name>
+            <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+            <sys_update_name>sys_choice_x_378151_decide_dossier_dg_unit</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:15:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dg_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DG DIGIT</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:15:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba7b519b47da11107443f2e7536d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:15:25</sys_updated_on>
+            <value>dg_digit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dg_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DG DIGIT B2</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:15:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>327b519b47da11107443f2e7536d436d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:15:26</sys_updated_on>
+            <value>dg_digit_b2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

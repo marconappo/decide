@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_378151_decide.decideUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>decideUtils</name>
+        <script><![CDATA[var decideUtils = Class.create();
+decideUtils.prototype = {
+    initialize: function() {},
+    isVisibleRequestCabinetAgreement: function(current) {
+        var isCoordinator = gs.hasRole('x_378151_decide.coordinator');
+        var pendingCoordinator = (current.status == "pending_coordinator");
+        return isCoordinator && pendingCoordinator;
+    },
+    isVisibleSignRejectDossier: function(current) {
+        var isDirector = gs.hasRole('x_378151_decide.director');
+        var pendingGeneralDirector = (current.status == "pending_general_director");
+        return isDirector && pendingGeneralDirector;
+    },
+    isVisibleReadyForCoordinator: function(current) {
+        var isAuthor = gs.hasRole('x_378151_decide.author');
+        var inPreparation = (current.status == "in_preparation");
+        return isAuthor && inPreparation;
+    },
+    isVisibleAbandonDossier: function(current) {
+        var isAuthor = gs.hasRole('x_378151_decide.author');
+        var inPreparation = (current.status == "in_preparation");
+        var isDirector = gs.hasRole('x_378151_decide.director');
+        var pendingGeneralDirector = (current.status == "pending_general_director");
+        var isCoordinator = gs.hasRole('x_378151_decide.coordinator');
+        var pendingCoordinator = (current.status == "pending_coordinator");
+        var isCabinet = gs.hasRole('x_378151_decide.cabinet');
+        var pendingCabinet = (current.status == "pending_cabinet");
+        return ((isAuthor && inPreparation) || 
+				(isDirector && pendingGeneralDirector) || 
+				(isCoordinator && pendingCoordinator) || 
+				(isCabinet && pendingCabinet));
+    },
+	isVisibleAdoptDossier: function(current) {
+        var isCabinet = gs.hasRole('x_378151_decide.cabinet');
+        var pendingCabinet = (current.status == "pending_cabinet");
+        return (isCabinet && pendingCabinet);
+    },
+    type: 'decideUtils'
+};
+//var isAuthor = gs.hasRole('x_378151_decide.author');
+//var isDirector = gs.hasRole('x_378151_decide.director');
+//var inPreparation = (current.status == "in_preparation");
+//var pendingGeneralDirector = (current.status == "pending_general_director");
+//var authorVisible = inPreparation && (isAuthor || isCoordinator);
+//var directorVisible = pendingGeneralDirector && isDirector;]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-09 12:26:10</sys_created_on>
+        <sys_id>e985f9b3479e91107443f2e7536d4396</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>decideUtils</sys_name>
+        <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+        <sys_update_name>sys_script_include_e985f9b3479e91107443f2e7536d4396</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-09 19:39:33</sys_updated_on>
+    </sys_script_include>
+</record_update>

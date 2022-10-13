@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="confidentiality_level" table="x_378151_decide_dossier" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>confidentiality_level</element>
+            <name>x_378151_decide_dossier</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-09 14:43:59</sys_created_on>
+            <sys_id>18151ab74712d1107443f2e7536d43b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>confidentiality_level</sys_name>
+            <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+            <sys_update_name>sys_choice_x_378151_decide_dossier_confidentiality_level</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-09 14:43:59</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>confidentiality_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Standard treatment</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-09 14:43:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90151ab74712d1107443f2e7536d43b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-09 14:43:59</sys_updated_on>
+            <value>standard_treatment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>confidentiality_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sensitive treatment</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-09 14:43:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10151ab74712d1107443f2e7536d43bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-09 14:43:59</sys_updated_on>
+            <value>sensitive_treatment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>confidentiality_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Restreint UE / EU Restricted</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-09 14:43:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c151ab74712d1107443f2e7536d43bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-09 14:43:59</sys_updated_on>
+            <value>restreint_ue_eu_restricted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>confidentiality_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EURA Restricted</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-09 14:44:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c151ab74712d1107443f2e7536d43bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-09 14:44:00</sys_updated_on>
+            <value>eura_restricted</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

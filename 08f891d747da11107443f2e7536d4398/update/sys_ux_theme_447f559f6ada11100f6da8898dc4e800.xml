@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Starter Workspace Theme</name>
+        <parent display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</parent>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-07 21:32:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>447f559f6ada11100f6da8898dc4e800</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starter Workspace Theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+        <sys_update_name>sys_ux_theme_447f559f6ada11100f6da8898dc4e800</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-10-07 21:32:44</sys_updated_on>
+        <theme/>
+    </sys_ux_theme>
+</record_update>

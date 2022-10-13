@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Dossier Document" max_length="40" name="x_378151_decide_dossier_document" sizeclass="0" type="collection">
+        <element label="Dossier" max_length="40" name="dossier" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

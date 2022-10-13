@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="translation_status" table="x_378151_decide_dossier" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>translation_status</element>
+            <name>x_378151_decide_dossier</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:15:25</sys_created_on>
+            <sys_id>ea7b119b47da11107443f2e7536d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>translation_status</sys_name>
+            <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+            <sys_update_name>sys_choice_x_378151_decide_dossier_translation_status</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:15:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>translation_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>To be requested</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:15:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a67b119b47da11107443f2e7536d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:15:25</sys_updated_on>
+            <value>to_be_requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>translation_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not to be requested</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:15:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>227b119b47da11107443f2e7536d43e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:15:25</sys_updated_on>
+            <value>not_to_be_requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>translation_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Received</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:15:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae7b119b47da11107443f2e7536d43e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:15:25</sys_updated_on>
+            <value>received</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

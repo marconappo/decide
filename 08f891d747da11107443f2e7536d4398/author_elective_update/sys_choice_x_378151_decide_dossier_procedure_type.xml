@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="procedure_type" table="x_378151_decide_dossier" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>procedure_type</element>
+            <name>x_378151_decide_dossier</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-08 12:46:45</sys_created_on>
+            <sys_id>89a03ce3475a51107443f2e7536d438d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>procedure_type</sys_name>
+            <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+            <sys_update_name>sys_choice_x_378151_decide_dossier_procedure_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-08 12:46:45</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>procedure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Written procedure</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-08 12:46:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cda03ce3475a51107443f2e7536d4367</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-08 12:46:45</sys_updated_on>
+            <value>written_procedure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>procedure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oral procedure</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-09 20:35:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a355afff4756d1107443f2e7536d4368</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 20:35:14</sys_updated_on>
+            <value>oral_procedure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>procedure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Empowerment procedure</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-08 12:46:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81a03ce3475a51107443f2e7536d438f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 20:35:19</sys_updated_on>
+            <value>empowerment_procedure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>procedure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delegation procedure</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-08 12:46:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9da03ce3475a51107443f2e7536d4390</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 20:36:12</sys_updated_on>
+            <value>delegation_procedure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>procedure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Staff working document</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-08 12:46:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11a03ce3475a51107443f2e7536d4390</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-09 20:36:22</sys_updated_on>
+            <value>staff_working_document</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

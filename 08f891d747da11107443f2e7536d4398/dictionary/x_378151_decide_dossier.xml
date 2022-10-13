@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Dossier" max_length="40" name="x_378151_decide_dossier" sizeclass="19" text_index="true" type="collection">
+        <element choice="1" default="DIGIT A1" label="Assigned DGs" max_length="40" name="assigned_dgs" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="DIGIT A1" sequence="0" value="DIGIT A1"/>
+                <element inactive_on_update="false" label="DIGIT A2" sequence="1" value="DIGIT A2"/>
+                <element inactive_on_update="false" label="DIGIT B1" sequence="2" value="DIGIT B1"/>
+                <element inactive_on_update="false" label="DIGIT B2" sequence="3" value="DIGIT B2"/>
+                <element inactive_on_update="false" label="HR A1" sequence="4" value="HR A1"/>
+                <element inactive_on_update="false" label="HR A2" sequence="5" value="HR A2"/>
+                <element inactive_on_update="false" label="HR B1" sequence="6" value="HR B1"/>
+                <element inactive_on_update="false" label="HR B2" sequence="7" value="HR B2"/>
+            </choice>
+        </element>
+        <element label="Author(s)" max_length="1024" name="author_s" reference="sys_user" type="glide_list"/>
+        <element label="Additional comments" max_length="4000" name="comments" type="journal_input"/>
+        <element choice="3" default="standard_treatment" label="Confidentiality Level" max_length="40" name="confidentiality_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Standard treatment" sequence="0" value="standard_treatment"/>
+                <element inactive_on_update="false" label="Sensitive treatment" sequence="1" value="sensitive_treatment"/>
+                <element inactive_on_update="false" label="Restreint UE / EU Restricted" sequence="2" value="restreint_ue_eu_restricted"/>
+                <element inactive_on_update="false" label="EURA Restricted" sequence="3" value="eura_restricted"/>
+            </choice>
+        </element>
+        <element label="Consultation details" max_length="40" name="consultation_details" type="string"/>
+        <element choice="3" choice_field="assigned_dgs" choice_table="x_378151_decide_dossier" default="DG DIGIT" label="DG/UNIT" max_length="40" name="dg_unit" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="DG DIGIT" sequence="0" value="dg_digit"/>
+                <element inactive_on_update="false" label="DG DIGIT B2" sequence="1" value="dg_digit_b2"/>
+            </choice>
+        </element>
+        <element label="Direct interest for the functioning of the EU Customs" max_length="40" name="direct_interest_for_the_functioning_of_the_eu_customs" type="boolean"/>
+        <element choice="3" default="normal" label="Duration of the procedure" max_length="40" name="duration_of_the_procedure" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Normal" sequence="0" value="normal"/>
+            </choice>
+        </element>
+        <element label="Full title" max_length="400" name="full_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Useful information for the SG Registry" label="Useful information for the SG Registry" max_length="400" name="info_sg_greffe" type="string"/>
+        <element label="Interest for the European Economic Area (EEA)" max_length="40" name="interest_for_the_european_economic_area_eea" type="boolean"/>
+        <element label="Interest for UK in respect of Northen Ireland" max_length="40" name="interest_for_uk_in_respect_of_northen_ireland" type="boolean"/>
+        <element label="Justification for the adoption" max_length="40" name="justification_for_the_adoption" type="string"/>
+        <element label="Main author document" mandatory="true" max_length="32" name="main_author_document" reference="sys_user" reference_qual="roles=x_378151_decide.author^EQ" reference_qual_condition="roles=x_378151_decide.author^EQ" type="reference"/>
+        <element label="Main author dossier" mandatory="true" max_length="32" name="main_author_dossier" reference="sys_user" reference_qual="roles=x_378151_decide.author^EQ" reference_qual_condition="roles=x_378151_decide.author^EQ" type="reference"/>
+        <element label="Main legislative coordinator" mandatory="true" max_length="32" name="main_legislative_coordinator" reference="sys_user" reference_qual="roles=x_378151_decide.coordinator^EQ" reference_qual_condition="roles=x_378151_decide.coordinator^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Internal Reference" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Politically sensitive/important" max_length="255" name="politically_sensitive_important" type="boolean"/>
+        <element choice="3" default="written_procedure" label="Procedure Type" max_length="40" name="procedure_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Written procedure" sequence="0" value="written_procedure"/>
+                <element inactive_on_update="false" label="Oral procedure" sequence="1" value="oral_procedure"/>
+                <element inactive_on_update="false" label="Empowerment procedure" sequence="2" value="empowerment_procedure"/>
+                <element inactive_on_update="false" label="Delegation procedure" sequence="3" value="delegation_procedure"/>
+                <element inactive_on_update="false" label="Staff working document" sequence="4" value="staff_working_document"/>
+            </choice>
+        </element>
+        <element label="Requested adoption date" max_length="255" name="requested_adoption_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested trasmission date" max_length="40" name="requested_trasmission_date" type="glide_date"/>
+        <element label="Short title" max_length="40" name="short_title" type="string"/>
+        <element choice="3" default="in_preparation" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In preparation" sequence="0" value="in_preparation"/>
+                <element inactive_on_update="false" label="Pending Coordinator" sequence="1" value="pending_coordinator"/>
+                <element inactive_on_update="false" label="Pending General Director" sequence="2" value="pending_general_director"/>
+                <element inactive_on_update="false" label="Pending Cabinet" sequence="3" value="pending_cabinet"/>
+                <element inactive_on_update="false" label="Adopted" sequence="4" value="adopted"/>
+                <element inactive_on_update="false" label="Abandoned" sequence="5" value="abandoned"/>
+            </choice>
+        </element>
+        <element choice="3" label="Translation Status" max_length="40" name="translation_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="To be requested" sequence="0" value="to_be_requested"/>
+                <element inactive_on_update="false" label="Not to be requested" sequence="1" value="not_to_be_requested"/>
+                <element inactive_on_update="false" label="Received" sequence="2" value="received"/>
+            </choice>
+        </element>
+        <element choice="3" default="record_signature" function_definition="record_signature" label="Type of signature/visa" max_length="40" name="type_of_signature_visa" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Record signature" sequence="0" value="record_signature"/>
+                <element inactive_on_update="false" label="Record signature on behalf of" sequence="1" value="record_signature_on_behalf_of"/>
+                <element inactive_on_update="false" label="Electronic via Decide" sequence="2" value="electronic_via_decide"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Watch list" max_length="1024" name="watch_list" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Work notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Work notes list" max_length="1024" name="work_notes_list" reference="sys_user" type="glide_list"/>
+        <index name="index">
+            <element name="main_author_dossier"/>
+        </index>
+        <index name="index2">
+            <element name="main_legislative_coordinator"/>
+        </index>
+        <index name="index3">
+            <element name="main_author_document"/>
+        </index>
+    </element>
+</database>

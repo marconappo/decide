@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="dg_unit" label="DG/UNIT" language="en" table="x_378151_decide_dossier">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>dg_unit</element>
+            <help/>
+            <hint/>
+            <label>DG/UNIT</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:15:24</sys_created_on>
+            <sys_id>167b119b47da11107443f2e7536d4373</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>DG/UNIT</sys_name>
+            <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+            <sys_update_name>sys_documentation_x_378151_decide_dossier_dg_unit_en</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:54:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

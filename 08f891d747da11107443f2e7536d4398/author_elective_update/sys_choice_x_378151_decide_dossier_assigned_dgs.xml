@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="assigned_dgs" table="x_378151_decide_dossier" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>assigned_dgs</element>
+            <name>x_378151_decide_dossier</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:30:01</sys_created_on>
+            <sys_id>a0ded55f47da11107443f2e7536d4381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>assigned_dgs</sys_name>
+            <sys_package display_value="Decide" source="x_378151_decide">08f891d747da11107443f2e7536d4398</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Decide">08f891d747da11107443f2e7536d4398</sys_scope>
+            <sys_update_name>sys_choice_x_378151_decide_dossier_assigned_dgs</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:30:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assigned_dgs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DIGIT A1</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:30:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6cded55f47da11107443f2e7536d4380</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:30:01</sys_updated_on>
+            <value>DIGIT A1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assigned_dgs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DIGIT A2</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:30:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4ded55f47da11107443f2e7536d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:30:01</sys_updated_on>
+            <value>DIGIT A2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assigned_dgs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DIGIT B1</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:30:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64ded55f47da11107443f2e7536d4383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:30:01</sys_updated_on>
+            <value>DIGIT B1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assigned_dgs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DIGIT B2</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:30:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0ded55f47da11107443f2e7536d4384</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:30:01</sys_updated_on>
+            <value>DIGIT B2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assigned_dgs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR A1</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:30:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60ded55f47da11107443f2e7536d4385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:30:01</sys_updated_on>
+            <value>HR A1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assigned_dgs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR A2</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:30:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ecded55f47da11107443f2e7536d4385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:30:01</sys_updated_on>
+            <value>HR A2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assigned_dgs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR B1</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:30:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6cded55f47da11107443f2e7536d4386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:30:01</sys_updated_on>
+            <value>HR B1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assigned_dgs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR B2</label>
+            <language>en</language>
+            <name>x_378151_decide_dossier</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-07 21:30:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e8ded55f47da11107443f2e7536d4387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-07 21:30:01</sys_updated_on>
+            <value>HR B2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
